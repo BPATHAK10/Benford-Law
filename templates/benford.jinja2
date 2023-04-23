@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Benford Test Results</title>
+    <link rel="stylesheet" href="static/benford.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Benford Test Results</h1>
+      <div class="result-container">
+        <h2>Test Results:</h2>
+        <h2>Conforms to Benford's Law:</h2>
+        <p> {{ conforms_to_benford}}</p>
+      </div>
+      <div class="image-container">
+        <img src="{{ plot_path }}" alt="Benford Plot">
+      </div>
+    </div>
+  </body>
+</html>
+
